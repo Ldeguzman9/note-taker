@@ -21,4 +21,31 @@ router.post("/notes", (req, res) => {
   res.json(database);
 });
 
+// delete a note from the array of notes
+router.delete("/notes/:id", function (req, res) {
+  //array to hold notes that we want to keep
+  var notesToKeep = [];
+  //for loop that iterates over the database and
+  //pushes all the notes that DO NOT have the id of the note we want to delete into
+  //the notesToKeep array
+  for (var i = 0; i < database.length; i++) {
+    if (database[i].id != req.params.id) {
+      notesToKeep.push(database[i]);
+    }
+  }
+  //set database array to the notesToKeep array
+  database = notesToKeep;
+  //write newly updated array as the database and then render
+  fs.writeFileSync(
+    "./db/db.json",
+    JSON.stringify(database),
+    function (err, res) {
+      if (err) {
+        throw err;
+      }
+    }
+  );
+  res.json(database);
+});
+
 module.exports = router;
