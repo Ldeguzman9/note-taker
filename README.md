@@ -11,10 +11,10 @@ This application allows users to create , delete and edit notes
 # README Generator Screen Shots
 
 - **Front End**
-  ![Terminal Prompts](https://github.com/Ldeguzman9/team-profile-generator/blob/develop/assets/images/terminal-prompts-screenshot.png?raw=true)
+  ![Terminal Prompts](https://github.com/Ldeguzman9/note-taker/blob/main/public/assets/images/Screenshot%202021-12-19%20at%207.19.28%20PM.png?raw=true)
 
 - **Backend**
-  ![Team Profile](https://github.com/Ldeguzman9/team-profile-generator/blob/develop/assets/images/team-profile-screenshot.png?raw=true)
+  ![Team Profile](https://github.com/Ldeguzman9/note-taker/blob/main/public/assets/images/Screenshot%202021-12-19%20at%207.20.17%20PM.png?raw=true)
 
 # Technical Skills
 
