@@ -23,4 +23,4 @@ This application allows users to create , delete and edit notes
 
 # Deployed link
 
-- https://ldeguzman9.github.io/note-taker/
+- https://note-taker-ldg9.herokuapp.com/
