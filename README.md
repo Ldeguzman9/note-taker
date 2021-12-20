@@ -22,3 +22,5 @@ This application allows users to create , delete and edit notes
 - Express.js
 
 # Deployed link
+
+- https://ldeguzman9.github.io/note-taker/
