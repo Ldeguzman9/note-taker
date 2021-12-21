@@ -1,6 +1,6 @@
 # Note Taker
 
-This application allows users to create , delete and edit notes
+This application allows users to create, delete and edit notes.
 
 # Note Taker Features:
 
